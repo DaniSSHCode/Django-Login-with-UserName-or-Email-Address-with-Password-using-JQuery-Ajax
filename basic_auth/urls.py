@@ -7,7 +7,7 @@ urlpatterns = [
     #user: 'creator' , password: 'be_happy'
     path('',login_view,name='inicio'),
 
-    path('login/',login_view,name='login2'),
+    path('login/',login_view,name='login'),
     path('api/login/',login_api,name='login_api'),
     path('logout/',logout_view,name='logout'),
 
