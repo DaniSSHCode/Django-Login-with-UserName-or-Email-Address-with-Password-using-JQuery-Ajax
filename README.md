@@ -14,7 +14,7 @@
       cd <name><br>
       source bin/activate<br>
       pip install Django==2.0.7 <br>
-      git clone https://github.com/DaniSSHCode/Django/new/master/basic_auth<br>
+      git clone https://github.com/DaniSSHCode/Django-Login-with-UserName-or-Email-Address-with-Password-using-JQuery-Ajax.git<br>
       cd basic_auth<br>
       python3 manage.py runserver<br>
       <br>
