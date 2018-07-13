@@ -17,6 +17,7 @@
       git clone https://github.com/DaniSSHCode/Django-Login-with-UserName-or-Email-Address-with-Password-using-JQuery-Ajax.git<br>
       cd Django-Login-with-UserName-or-Email-Address-with-Password-using-JQuery-Ajax/<br>
       python3 manage.py runserver<br>
+      go to http://127.0.0.1:8000/<br>
       <br>
  <strong>Data:
 </strong><br>
