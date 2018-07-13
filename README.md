@@ -15,7 +15,7 @@
       source bin/activate<br>
       pip install Django==2.0.7 <br>
       git clone https://github.com/DaniSSHCode/Django-Login-with-UserName-or-Email-Address-with-Password-using-JQuery-Ajax.git<br>
-      cd basic_auth<br>
+      cd Django-Login-with-UserName-or-Email-Address-with-Password-using-JQuery-Ajax/<br>
       python3 manage.py runserver<br>
       <br>
  <strong>Data:
