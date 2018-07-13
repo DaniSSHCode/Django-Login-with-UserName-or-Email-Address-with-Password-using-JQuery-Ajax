@@ -10,8 +10,8 @@
       <br>
 <strong>Steps:
 </strong><br>
-      virtualenv -p python3 <name><br>
-      cd <name><br>
+      virtualenv -p python3 -name-<br>
+      cd -name-<br>
       source bin/activate<br>
       pip install Django==2.0.7 <br>
       git clone https://github.com/DaniSSHCode/Django-Login-with-UserName-or-Email-Address-with-Password-using-JQuery-Ajax.git<br>
