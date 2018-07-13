@@ -1,0 +1,11 @@
+{% extends "snippets/card.html" %}{%block content%}
+{% for key, value in data.items %}
+<p><strong>{{key}}: </strong>{{value}}</p>
+{% endfor %}
+<div style="text-align:center">
+<a href="{% url 'logout'%}"> <button  class="btn-floating btn-large waves-effect waves-light purple" href = "{% url 'logout'%}">
+    <i class="material-icons" id="login-submit" >clear</i>
+  </button>
+</a>
+</div>
+{% endblock content%}

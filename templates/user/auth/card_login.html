@@ -1,0 +1,18 @@
+{% extends "snippets/card.html" %}{%block content%}{% csrf_token %}
+<div class="row">
+  <div class="input-field col s12">
+    <input id="user" type="text" class="validate" name="user">
+    <label for="user">Username or Gmail</label>
+  </div>
+</div>
+<div class="row">
+  <div class="input-field col s12">
+    <input id="password" type="password" class="validate" name="password">
+    <label for="password">Password</label>
+  </div>
+</div>
+<div style="text-align:center">
+  <button class="btn-floating btn-large waves-effect waves-light purple">
+    <i class="material-icons" id="login-submit">send</i>
+  </button>
+</div>{% endblock content%}
